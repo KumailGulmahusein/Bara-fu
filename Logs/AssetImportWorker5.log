@@ -237,3 +237,166 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 703.228414 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background
+  artifactKey: Guid(f6943ae370b56694592c603176487905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Cartoon Parallax Background using Guid(f6943ae370b56694592c603176487905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c5634595dca992a33a65cd8134e613') in 0.009163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.584087 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/FullBG
+  artifactKey: Guid(6412732dd5a76b74ea1df0a84d321fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Cartoon Parallax Background/FullBG using Guid(6412732dd5a76b74ea1df0a84d321fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fc81dbdff1dbc11814fa95798601fc') in 0.005024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.492134 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/4_Snow
+  artifactKey: Guid(1358260a5a240a244941ddbcd9f34c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Cartoon Parallax Background/4_Snow using Guid(1358260a5a240a244941ddbcd9f34c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290e1a710ee227b0e0ce3cb658023c12') in 0.004468 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.3 KB). Loaded Objects now: 4376.
+Memory consumption went from 153.7 MB to 153.5 MB.
+Total: 2.740900 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.390600 ms  DeleteObjects: 0.089700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 850.273181 seconds.
+  path: Assets/Prefabs/SimpleGround.prefab
+  artifactKey: Guid(e899deac58fc0a1408f90de6d2acdafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SimpleGround.prefab using Guid(e899deac58fc0a1408f90de6d2acdafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22fdbe5ccef9aee33d2c662f1d5e3ec') in 0.056137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2534.426634 seconds.
+  path: Assets/Prefabs/GroundRight.prefab
+  artifactKey: Guid(fb84dac50c4261948bd85a8a5b5589d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundRight.prefab using Guid(fb84dac50c4261948bd85a8a5b5589d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf94a583b69bbb6cd73df21eacd8f0b') in 0.011134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.951642 seconds.
+  path: Assets/Prefabs/GroundCenter.prefab
+  artifactKey: Guid(fe34c76717953a14fa1a02aefaf6e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundCenter.prefab using Guid(fe34c76717953a14fa1a02aefaf6e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbcaf349aa79e5f7a4e64ea3ccf63ba') in 0.012812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.995919 seconds.
+  path: Assets/Prefabs/GroundLeft.prefab
+  artifactKey: Guid(e381d38bd4408de469aafcd8f9d4bcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GroundLeft.prefab using Guid(e381d38bd4408de469aafcd8f9d4bcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1af6d0ca7b622eda1acd6ae6fff830') in 0.011447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.364747 seconds.
+  path: Assets/Martial Hero
+  artifactKey: Guid(1d5776582ddc6dd4e93cc66053166776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero using Guid(1d5776582ddc6dd4e93cc66053166776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678a324f8417f9597980b6f17b4725d2') in 0.003697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.537746 seconds.
+  path: Assets/Martial Hero/Sprites
+  artifactKey: Guid(2c7d9fe9af7dc4d43afd14e007caf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites using Guid(2c7d9fe9af7dc4d43afd14e007caf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e98476d4f388535851ff6b03cd99935') in 0.004354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.301425 seconds.
+  path: Assets/Martial Hero/Demo
+  artifactKey: Guid(61bf7d64f1b403e429b1f884516ef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Demo using Guid(61bf7d64f1b403e429b1f884516ef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402f04ae6fb012483ed5819d297e758e') in 0.004503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.263923 seconds.
+  path: Assets/Martial Hero/Animations
+  artifactKey: Guid(c3426144bb91fbb4e957c903ca9719d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Animations using Guid(c3426144bb91fbb4e957c903ca9719d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7440754ad5ce77e00cd0013eb34abb') in 0.004454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.942692 seconds.
+  path: Assets/Martial Hero/Sprites/Attack1.png
+  artifactKey: Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Attack1.png using Guid(c50b517797d93614aac4ca58aaf97355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76696e29fdf2dc7b6b62e03136145af0') in 0.040357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Martial Hero/Sprites/Take Hit.png
+  artifactKey: Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Take Hit.png using Guid(dafba786f4f5b8242bc098edbf954165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b905e5b9d03a139529d36ecf74f2d3b8') in 0.024855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Martial Hero/Sprites/Death.png
+  artifactKey: Guid(1db9a306592ac9545975fcdd51459943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Death.png using Guid(1db9a306592ac9545975fcdd51459943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0005b51f4297184c16cf2c72f34607') in 0.027755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Martial Hero/Sprites/Fall.png
+  artifactKey: Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Fall.png using Guid(ab9c6780bd1ac3c4fb318722a17a5862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48969183a69dfd653d5339a18037e8c4') in 0.017236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Martial Hero/Sprites/Jump.png
+  artifactKey: Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Jump.png using Guid(efffe4e87e655434db7d78f603ef99bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e5ee9e210ec187135976a5551375ac') in 0.013763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Martial Hero/Sprites/Take Hit - white silhouette.png
+  artifactKey: Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Martial Hero/Sprites/Take Hit - white silhouette.png using Guid(5f3849e414a15ef4bafea810f38d8e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8718cf7178336cf02ffe3e8e6a8c8460') in 0.019554 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
