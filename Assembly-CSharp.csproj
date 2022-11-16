@@ -53,12 +53,12 @@
     <UnityVersion>2021.2.7f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
-    <Compile Include="Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
+    <Compile Include="Assets\Assets\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
+    <Compile Include="Assets\Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Martial Hero\License.txt" />
+    <None Include="Assets\Assets\Martial Hero\License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
