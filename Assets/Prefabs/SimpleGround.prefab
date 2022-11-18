@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1145593024565144690}
   - component: {fileID: 1145593024565144689}
   - component: {fileID: 1145593024565144688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SimpleGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
