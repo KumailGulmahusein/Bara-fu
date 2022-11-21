@@ -15,6 +15,9 @@ public class playerAttack : MonoBehaviour
     int currentHealth;
     public int attackDamage = 20;
 
+    public float attackRate = 1f;
+    float nextAttackTime = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,9 +27,13 @@ public class playerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxisRaw("Fire1")> 0)
+        if (Time.time >= nextAttackTime)
         {
-            Attack();
+            if (Input.GetAxisRaw("Fire1") > 0)
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
         }
     }
 
