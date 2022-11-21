@@ -1,0 +1,309 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Kumail/Documents/GitHub/Samurai-Bean
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49888
+Successfully changed project path to: C:/Users/Kumail/Documents/GitHub/Samurai-Bean
+C:/Users/Kumail/Documents/GitHub/Samurai-Bean
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 53.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kumail/Documents/GitHub/Samurai-Bean/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001615 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (381ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (295ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003769 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (472ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3905 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.4 KB). Loaded Objects now: 4354.
+Memory consumption went from 147.0 MB to 146.8 MB.
+Total: 2.459800 ms (FindLiveObjects: 0.174600 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.094200 ms  DeleteObjects: 0.102600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 999342.535708 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3
+  artifactKey: Guid(d299acd61dfde78448769430fea33e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3 using Guid(d299acd61dfde78448769430fea33e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f783cf3230929a00f9cf13a6ef9b3fe') in 0.006924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.382123 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_6/Attack2.png
+  artifactKey: Guid(81ad59727932f034a96619be90060e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_6/Attack2.png using Guid(81ad59727932f034a96619be90060e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6027295008fb0552a1697fa95cfe2c') in 0.076208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_6/Death.png
+  artifactKey: Guid(8d4b206fadc4d02459b569b5c5290421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_6/Death.png using Guid(8d4b206fadc4d02459b569b5c5290421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081d1c900b8bae40a44b0b0cbd533de6') in 0.017176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_6/Take Hit.png
+  artifactKey: Guid(11f9eba58070e7144a8ef45067556fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_6/Take Hit.png using Guid(11f9eba58070e7144a8ef45067556fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed93b69a32906c1d48bddd0e7b75bdb') in 0.020825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_6/Idle.png
+  artifactKey: Guid(361d449e44be10744a36c9dbfe0e4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_6/Idle.png using Guid(361d449e44be10744a36c9dbfe0e4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b5dc77a09cddb64719d06870a309b1') in 0.022348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.055978 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_2/Fall.png
+  artifactKey: Guid(e2880ae25dbf2054f95219d7b0ee9ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_2/Fall.png using Guid(e2880ae25dbf2054f95219d7b0ee9ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ccd7afd56215d33e3c41f2ee586bb3') in 0.013296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_2/Run.png
+  artifactKey: Guid(fe04825acf806fd4d8450bbe7f4c04f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_2/Run.png using Guid(fe04825acf806fd4d8450bbe7f4c04f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932a9fc4607efda5b9b38790e3efef5f') in 0.029193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_2/Take Hit.png
+  artifactKey: Guid(66e4a445d2c31b340aaedf5880167e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_2/Take Hit.png using Guid(66e4a445d2c31b340aaedf5880167e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3054b446972777c9de038a0c51987373') in 0.017976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.957574 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_5/Fall.png
+  artifactKey: Guid(62077410ceebd4940bdb9b06b1f41624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_5/Fall.png using Guid(62077410ceebd4940bdb9b06b1f41624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae1662c41b78600768de2f4aa902b14') in 0.015997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_5/Take Hit.png
+  artifactKey: Guid(1382b2d85caff3842bb520bf291bb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_5/Take Hit.png using Guid(1382b2d85caff3842bb520bf291bb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810c36051a0cfb868a6725f507cedc8c') in 0.018625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.000344 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_3/Fall.png
+  artifactKey: Guid(afd04dfbfbe1b78418c00264099acc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_3/Fall.png using Guid(afd04dfbfbe1b78418c00264099acc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86564f5d14a9145536d48416dbbe3095') in 0.016690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_3/Run.png
+  artifactKey: Guid(81b3652e761cf5a43ac7d5dc98cc07cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_3/Run.png using Guid(81b3652e761cf5a43ac7d5dc98cc07cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7f953299e0d4c0aee3326f31119cae') in 0.027187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.760659 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_1/Fall.png
+  artifactKey: Guid(76b10dcc970be574ead83daa7b83ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_1/Fall.png using Guid(76b10dcc970be574ead83daa7b83ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571ddee0e8bce2c719576222a332774b') in 0.013850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_1/Jump.png
+  artifactKey: Guid(5d34f9e961e86e24d97a012346faa3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_1/Jump.png using Guid(5d34f9e961e86e24d97a012346faa3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24159c09631e830b1ce2fb237605c0bb') in 0.015136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.831744 seconds.
+  path: Assets/Assets/Fantasy Martial Characters 3/Character_4/Fall.png
+  artifactKey: Guid(5d2dd692830fe4640b8950e3c177dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Fantasy Martial Characters 3/Character_4/Fall.png using Guid(5d2dd692830fe4640b8950e3c177dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89712b380f779f403f0b5877c3ee2c53') in 0.016428 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005736 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3914 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (194.2 KB). Loaded Objects now: 4574.
+Memory consumption went from 160.1 MB to 159.9 MB.
+Total: 2.315100 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.102400 ms MarkObjects: 1.930200 ms  DeleteObjects: 0.083100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

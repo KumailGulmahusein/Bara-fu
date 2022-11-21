@@ -15,7 +15,7 @@ C:/Users/Kumail/Documents/GitHub/Samurai-Bean
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-64153
+57437
 Successfully changed project path to: C:/Users/Kumail/Documents/GitHub/Samurai-Bean
 C:/Users/Kumail/Documents/GitHub/Samurai-Bean
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Kumail/Documents/GitHub/Samurai-Bean
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 52.27 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 63.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002142 seconds.
+Registered in 0.002032 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 52.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.445 seconds
+- Completed reload, in  0.395 seconds
 Domain Reload Profiling:
-	ReloadAssembly (445ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (396ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (323ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (294ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (62ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (187ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
+				RefreshPlugins (52ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004268 seconds.
+Registered in 0.004289 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.54 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 51.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
+- Completed reload, in  0.986 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1006ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (881ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (560ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (614ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (420ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (481ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3899 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (225.2 KB). Loaded Objects now: 4348.
-Memory consumption went from 146.8 MB to 146.5 MB.
-Total: 2.197100 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.871000 ms  DeleteObjects: 0.089000 ms)
+Unloading 3905 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.4 KB). Loaded Objects now: 4354.
+Memory consumption went from 147.0 MB to 146.8 MB.
+Total: 2.373300 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.088700 ms MarkObjects: 1.992900 ms  DeleteObjects: 0.089600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,95 +159,371 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 546702.001392 seconds.
-  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/background
-  artifactKey: Guid(9bafc5530d5cc47dcb650fdd43c02374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/background using Guid(9bafc5530d5cc47dcb650fdd43c02374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6c14d42bf5acd2a0e3328f81080660') in 0.006867 seconds 
+  Time since last request: 1002405.041493 seconds.
+  path: Assets/Traps/README.md
+  artifactKey: Guid(b548060bb01585d4d95ab9f430971c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/README.md using Guid(b548060bb01585d4d95ab9f430971c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e60cfd1cb8fc0ad3ede81c8d8412ed') in 0.020109 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062551 seconds.
-  path: Assets/Warped City Assets/Artwork/ENVIRONMENT/background/buildings-bg.png
-  artifactKey: Guid(37d1bdb3e1de647ae915d01a2b7def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/ENVIRONMENT/background/buildings-bg.png using Guid(37d1bdb3e1de647ae915d01a2b7def15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96012a38ebb0f5268a856cd5a0a12336') in 0.068406 seconds 
+  Time since last request: 1.243145 seconds.
+  path: Assets/Traps/Samurai-Bean.sln
+  artifactKey: Guid(ae14a29d71fe71c4ebf6907f1b61c815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/Samurai-Bean.sln using Guid(ae14a29d71fe71c4ebf6907f1b61c815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02af1ee4e1c946ede795f0b1f39dd82a') in 0.008996 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.902133 seconds.
-  path: Assets/Warped City Assets/Scenes
-  artifactKey: Guid(1d04794afb7db4b8bbc71b67b6cdc45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Scenes using Guid(1d04794afb7db4b8bbc71b67b6cdc45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911267a04874efd3ec1c2781b95cc973') in 0.004474 seconds 
+  Time since last request: 165.676609 seconds.
+  path: Assets/Traps/Rectangular Palette.prefab
+  artifactKey: Guid(341e7f9cb697b4e498cc7cc83baa2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/Rectangular Palette.prefab using Guid(341e7f9cb697b4e498cc7cc83baa2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596c86c489e8b0b50609f5ef8b42350e') in 0.054408 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.160087 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/vehicles
-  artifactKey: Guid(5907e111f16424938b1e7d164542c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/vehicles using Guid(5907e111f16424938b1e7d164542c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e3060a54273453228c149957fed999') in 0.004970 seconds 
+  Time since last request: 17.467679 seconds.
+  path: Assets/Traps/New Rule Tile.asset
+  artifactKey: Guid(2b203e84f1814ab4e9f4159be96bf8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/New Rule Tile.asset using Guid(2b203e84f1814ab4e9f4159be96bf8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd3801257e0ebb3d3098eca28ee7737') in 0.008822 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.281305 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/player
-  artifactKey: Guid(ad37e3140676e4d56ba48e0870758827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/player using Guid(ad37e3140676e4d56ba48e0870758827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fdb147161a647698c1498b5bef2f6f') in 0.003990 seconds 
+  Time since last request: 36.592994 seconds.
+  path: Assets/Traps/9Sliced.png
+  artifactKey: Guid(744285fae1c5055418a1409a62deb45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/9Sliced.png using Guid(744285fae1c5055418a1409a62deb45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7748bdbbc9f76c7a3358a308fe78643f') in 0.025400 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.334121 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc
-  artifactKey: Guid(69723ae10157d43c6bac9a25f7ee7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc using Guid(69723ae10157d43c6bac9a25f7ee7cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aa2f7139d6831745dd89cd5e0e2fe6') in 0.004257 seconds 
+  Time since last request: 58.543919 seconds.
+  path: Assets/Traps/Spear.png
+  artifactKey: Guid(e3f7968b493491246916038b0839a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/Spear.png using Guid(e3f7968b493491246916038b0839a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714abde8c4965afd4ab11eeec62140c8') in 0.009188 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.131472 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/player/back-jump
-  artifactKey: Guid(175ef0e2862054fe88290ff2289b696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/player/back-jump using Guid(175ef0e2862054fe88290ff2289b696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761bfc8fb0b9f8f216f72412ddccf1b5') in 0.004930 seconds 
+  Time since last request: 118.346068 seconds.
+  path: Assets/Traps/Spear.png
+  artifactKey: Guid(e3f7968b493491246916038b0839a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/Spear.png using Guid(e3f7968b493491246916038b0839a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec292bbd8191890cdc91ff39bbb8ca46') in 0.008654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.069796 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-1.png
-  artifactKey: Guid(6bcff3fdeea55447d8b185465a8a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-1.png using Guid(6bcff3fdeea55447d8b185465a8a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425a726338edcb67cb6f0883bc1f0a26') in 0.016891 seconds 
+  Time since last request: 72.168089 seconds.
+  path: Assets/Traps/Spear.png
+  artifactKey: Guid(e3f7968b493491246916038b0839a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Traps/Spear.png using Guid(e3f7968b493491246916038b0839a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f698dcd2ced54d69bf82051a89ff73') in 0.026094 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-7.png
-  artifactKey: Guid(80ad1c68c2e1e4bd2b29fe6f4163bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-7.png using Guid(80ad1c68c2e1e4bd2b29fe6f4163bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b5446d82806ba047eb76d7d04a643d') in 0.011646 seconds 
+  Time since last request: 278.742480 seconds.
+  path: Assets/Animation/Spear_8.controller
+  artifactKey: Guid(306c85cc7be5fd34aa95b4814a89d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Spear_8.controller using Guid(306c85cc7be5fd34aa95b4814a89d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc66c00d121f2e16fec2345ed5e3faa') in 0.007369 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.229351 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc/drone
-  artifactKey: Guid(47d8fba91ccdb4f6f8d1c9a3fde31dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/drone using Guid(47d8fba91ccdb4f6f8d1c9a3fde31dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ab1b2cf177bf284b838e4c2a73485c') in 0.003393 seconds 
+  Time since last request: 7.523826 seconds.
+  path: Assets/Animation/SpikeTrap.anim
+  artifactKey: Guid(8e40b8ebeb17d854db8a6925fcdb49c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/SpikeTrap.anim using Guid(8e40b8ebeb17d854db8a6925fcdb49c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c267fb91f0ac6fdff401f5659afbe816') in 0.005829 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004212 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.8 KB). Loaded Objects now: 4427.
+Memory consumption went from 153.0 MB to 152.8 MB.
+Total: 2.412600 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.051700 ms  DeleteObjects: 0.098500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.079772 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-1.png
-  artifactKey: Guid(a1fc1786c427341769dba6c83feadde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/drone/drone-1.png using Guid(a1fc1786c427341769dba6c83feadde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2e10352e05562309138f2f38fb411f') in 0.014273 seconds 
+  Time since last request: 78.259846 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f08183992a121c216c39f7d3b0239a3') in 0.043956 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.692374 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit
-  artifactKey: Guid(2577a2a49967e445b95a0b9a10655ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit using Guid(2577a2a49967e445b95a0b9a10655ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff8d0f267a958501187ce39985e463c') in 0.005010 seconds 
+  Time since last request: 21.849645 seconds.
+  path: Assets/Materials/New Flare.flare
+  artifactKey: Guid(c424b630709c0304b9a46acc9e13ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Flare.flare using Guid(c424b630709c0304b9a46acc9e13ec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b638d2d78ca689f4da11ca767277cd50') in 0.005584 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.239191 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit/shot-hit-1.png
-  artifactKey: Guid(74b1f2f65f5d54fb79d714a16652e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/shot-hit/shot-hit-1.png using Guid(74b1f2f65f5d54fb79d714a16652e720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee067da2985350e639747f07d7fd524') in 0.012206 seconds 
+  Time since last request: 8.782424 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(6bdf644001fef8546b1a3c28415c943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(6bdf644001fef8546b1a3c28415c943a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c397a168d5b2a8b0c26a1f8a2eda45') in 0.037956 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.1 KB). Loaded Objects now: 4477.
+Memory consumption went from 153.6 MB to 153.5 MB.
+Total: 2.338300 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.121600 ms MarkObjects: 1.943800 ms  DeleteObjects: 0.089700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (568ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.2 KB). Loaded Objects now: 4479.
+Memory consumption went from 153.6 MB to 153.4 MB.
+Total: 2.452500 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.083700 ms MarkObjects: 2.085000 ms  DeleteObjects: 0.091300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.174926 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc/turret
-  artifactKey: Guid(8f8a56751a50c4bbfb23d9d40a0cb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/turret using Guid(8f8a56751a50c4bbfb23d9d40a0cb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb7523c04f642099aacf37679f7249') in 0.005151 seconds 
+  Time since last request: 185.474499 seconds.
+  path: Assets/Scripts/enemy.cs
+  artifactKey: Guid(2ab9df8800155344d9e9cb04661106af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/enemy.cs using Guid(2ab9df8800155344d9e9cb04661106af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36182a5bb3a5c2ee35ccf5c9fb77d4a') in 0.009833 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.833099 seconds.
-  path: Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-1.png
-  artifactKey: Guid(7880821ae0e694ff185fd812fdbe7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Warped City Assets/Artwork/SPRITES/misc/turret/turret-1.png using Guid(7880821ae0e694ff185fd812fdbe7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b8eb7d3e04a0d378116562f97e178f') in 0.015935 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 8.086431 seconds.
+  path: Assets/Scripts/enemy.cs
+  artifactKey: Guid(2ab9df8800155344d9e9cb04661106af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/enemy.cs using Guid(2ab9df8800155344d9e9cb04661106af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd5e511e1706314fb2f2efd742d66f7') in 0.001489 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.2 KB). Loaded Objects now: 4481.
+Memory consumption went from 153.6 MB to 153.4 MB.
+Total: 2.262900 ms (FindLiveObjects: 0.168600 ms CreateObjectMapping: 0.086400 ms MarkObjects: 1.917600 ms  DeleteObjects: 0.089600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004296 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Domain Reload Profiling:
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.3 KB). Loaded Objects now: 4483.
+Memory consumption went from 153.6 MB to 153.5 MB.
+Total: 2.340100 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.089100 ms MarkObjects: 1.943700 ms  DeleteObjects: 0.099700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
