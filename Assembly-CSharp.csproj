@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\playerController.cs" />
     <Compile Include="Assets\Scripts\playerAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\cameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Martial Hero\License.txt" />
