@@ -59,7 +59,9 @@
     <Compile Include="Assets\Scripts\playerController.cs" />
     <Compile Include="Assets\Scripts\cameraController.cs" />
     <Compile Include="Assets\Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
-    <Compile Include="Assets\Scripts\trapcontroller.cs" />
+    <Compile Include="Assets\Scripts\trapController.cs" />
+    <Compile Include="Assets\Scripts\destroyMe.cs" />
+    <Compile Include="Assets\Scripts\enemyDamage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Fantasy Martial Characters 3\License.txt" />

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public Animator animator;
+    public GameObject playerDeathEffects;
 
     public int maxHealth = 100;
     int currentHealth;
@@ -24,7 +25,7 @@ public class Enemy : MonoBehaviour
         currentHealth -= damage;
 
         animator.SetTrigger("Hurt");
-
+        Instantiate(playerDeathEffects);
         if (currentHealth <= 0)
         {
             Die();
