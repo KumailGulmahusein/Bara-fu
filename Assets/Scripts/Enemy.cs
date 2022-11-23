@@ -9,21 +9,15 @@ public class Enemy : MonoBehaviour
     public GameObject playerDeathEffects;
     public Slider enemyHPBar;
 
-    public int maxHealth = 100;
+    public int enemymaxHealth = 100;
     int currentHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth = enemymaxHealth;
         enemyHPBar.maxValue = currentHealth;
         enemyHPBar.value = currentHealth;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     public void TakeDamage(int damage)
     {
@@ -45,5 +39,6 @@ public class Enemy : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
         enemyHPBar.gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }

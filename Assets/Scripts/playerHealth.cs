@@ -57,7 +57,7 @@ public class playerHealth : MonoBehaviour
             die();
         }
     }
-    void die()
+    public void die()
     {
         Instantiate(playerDeathEffects, transform.position, transform.rotation);
         Destroy(gameObject);
