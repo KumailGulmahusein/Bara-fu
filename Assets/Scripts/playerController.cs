@@ -31,6 +31,7 @@ public class playerController : MonoBehaviour
         myRB = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
         facingRight = true;
+        
     }
 
     private void Update()
@@ -76,4 +77,5 @@ public class playerController : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
     }
+
 }

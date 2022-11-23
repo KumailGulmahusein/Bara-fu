@@ -11,7 +11,6 @@ public class playerAttack : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
 
-    public int maxHealth = 100;
     int currentHealth;
     public int attackDamage = 20;
 

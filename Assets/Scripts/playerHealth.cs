@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class playerHealth : MonoBehaviour
 {
-    public Animator animator;
+    Animator myAnimator;
     public GameObject playerDeathEffects;
 
-    public int maxHealth = 100;
-    int currentHealth;
+    public float maxHealth = 100;
+    float currentHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -19,24 +19,21 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
+        if (damage <= 0) return;
         currentHealth -= damage;
 
-        animator.SetTrigger("Hurt");
-        Instantiate(playerDeathEffects);
         if (currentHealth <= 0)
         {
-            Die();
+            die();
         }
     }
-    void Die()
+    void die()
     {
-        animator.SetBool("Dead", true);
-
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        Instantiate(playerDeathEffects, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 }

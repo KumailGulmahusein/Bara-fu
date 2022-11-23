@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\trapController.cs" />
     <Compile Include="Assets\Scripts\destroyMe.cs" />
     <Compile Include="Assets\Scripts\enemyDamage.cs" />
+    <Compile Include="Assets\Scripts\playerHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Fantasy Martial Characters 3\License.txt" />

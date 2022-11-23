@@ -387,6 +387,7 @@ GameObject:
   - component: {fileID: 187148123}
   - component: {fileID: 187148122}
   - component: {fileID: 187148126}
+  - component: {fileID: 187148127}
   m_Layer: 7
   m_Name: BasicEnemy
   m_TagString: Enemy
@@ -404,7 +405,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.01, y: 0.01}
@@ -522,6 +523,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &187148127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187148121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70e441fac6c4f3468b7fae9fcae268a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 50
+  damageRate: 0.5
+  pushBackForce: 20
 --- !u!1 &471351430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1203,8 @@ GameObject:
   - component: {fileID: 1209069544}
   - component: {fileID: 1209069548}
   - component: {fileID: 1209069546}
-  - component: {fileID: 1209069547}
+  - component: {fileID: 1209069549}
+  - component: {fileID: 1209069550}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -1350,7 +1367,26 @@ MonoBehaviour:
     m_Bits: 64
   groundCheck: {fileID: 17048563}
   jumpHeight: 60
---- !u!95 &1209069547
+--- !u!114 &1209069548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209069539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5266753a4adf84a8c511fb9c1903df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPoint: {fileID: 33022447}
+  attackRange: 1
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  attackDamage: 20
+  attackRate: 2
+--- !u!95 &1209069549
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -1370,7 +1406,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1209069548
+--- !u!114 &1209069550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1379,17 +1415,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1209069539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a5266753a4adf84a8c511fb9c1903df, type: 3}
+  m_Script: {fileID: 11500000, guid: 99e9f16e2bad5184cb29673089da9aae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoint: {fileID: 33022447}
-  attackRange: 1
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 128
-  maxHealth: 100
-  attackDamage: 20
-  attackRate: 2
+  fullHealth: 100
+  deathFX: {fileID: 6893478375560450731, guid: 2190a2b903ca500438c0e9f1aa887f31, type: 3}
 --- !u!1 &1419869968
 GameObject:
   m_ObjectHideFlags: 0
