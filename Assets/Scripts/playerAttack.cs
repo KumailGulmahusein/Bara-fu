@@ -17,10 +17,15 @@ public class playerAttack : MonoBehaviour
     public float attackRate = 1f;
     float nextAttackTime = 0f;
 
+    public AudioClip playerAttackAudio;
+    AudioSource playerAS;
+
     // Start is called before the first frame update
     void Start()
     {
         myAnim = GetComponent<Animator>();
+
+        playerAS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -32,6 +37,8 @@ public class playerAttack : MonoBehaviour
             {
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
+                playerAS.clip = playerAttackAudio;
+                playerAS.Play();
             }
         }
     }
