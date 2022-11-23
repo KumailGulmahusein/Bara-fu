@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class playerHealth : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class playerHealth : MonoBehaviour
     //HUD Variables
     public Slider healthBar;
     public Image damageScreen;
+    public TMP_Text DeathTextScreen;
 
     bool damaged = false;
     Color damagedColour = new Color(0f, 0f, 0f, 0.5f);
@@ -48,7 +50,7 @@ public class playerHealth : MonoBehaviour
     {
         if (damage <= 0) return;
         currentHealth -= damage;
-
+        
         healthBar.value = currentHealth;
         damaged = true;
 
@@ -61,5 +63,9 @@ public class playerHealth : MonoBehaviour
     {
         Instantiate(playerDeathEffects, transform.position, transform.rotation);
         Destroy(gameObject);
+        damageScreen.color = damagedColour;
+
+        Animator DeathText = DeathTextScreen.GetComponent<Animator>();
+        DeathText.SetTrigger("gameOver");
     }
 }
