@@ -53,27 +53,28 @@
     <UnityVersion>2021.2.7f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\cleaner.cs" />
+    <Compile Include="Assets\Scripts\cannonScript.cs" />
     <Compile Include="Assets\Assets\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
+    <Compile Include="Assets\Scripts\shurikenHit.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\playerAttack.cs" />
-    <Compile Include="Assets\Scripts\playerController.cs" />
-    <Compile Include="Assets\Scripts\cameraController.cs" />
-    <Compile Include="Assets\Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
-    <Compile Include="Assets\Scripts\trapController.cs" />
-    <Compile Include="Assets\Scripts\destroyMe.cs" />
-    <Compile Include="Assets\Scripts\enemyDamage.cs" />
-    <Compile Include="Assets\Scripts\playerHealth.cs" />
-    <Compile Include="Assets\Scripts\enemyMovementController.cs" />
-    <Compile Include="Assets\Scripts\cleaner.cs" />
-    <Compile Include="Assets\Scripts\gameRestart.cs" />
-    <Compile Include="Assets\Scripts\levelController.cs" />
-    <Compile Include="Assets\Scripts\bossDoor.cs" />
     <Compile Include="Assets\Scripts\healthPickUp.cs" />
-    <Compile Include="Assets\Scripts\shurikenPickUp.cs" />
-    <Compile Include="Assets\Scripts\projectileController.cs" />
-    <Compile Include="Assets\Scripts\shurikenHit.cs" />
-    <Compile Include="Assets\Scripts\cannonScript.cs" />
+    <Compile Include="Assets\Scripts\bossDoor.cs" />
+    <Compile Include="Assets\Scripts\destroyMe.cs" />
     <Compile Include="Assets\Scripts\cannonBallScript.cs" />
+    <Compile Include="Assets\Scripts\gameRestart.cs" />
+    <Compile Include="Assets\Scripts\enemyMovementController.cs" />
+    <Compile Include="Assets\Scripts\shurikenPickUp.cs" />
+    <Compile Include="Assets\Scripts\playerController.cs" />
+    <Compile Include="Assets\Scripts\trapController.cs" />
+    <Compile Include="Assets\Scripts\cameraController.cs" />
+    <Compile Include="Assets\Scripts\enemyDamage.cs" />
+    <Compile Include="Assets\Scripts\levelController.cs" />
+    <Compile Include="Assets\Assets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
+    <Compile Include="Assets\Scripts\playerHealth.cs" />
+    <Compile Include="Assets\Scripts\projectileController.cs" />
+    <Compile Include="Assets\Scripts\Exit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Fantasy Martial Characters 3\License.txt" />
