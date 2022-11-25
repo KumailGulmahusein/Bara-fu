@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     public int enemymaxHealth = 100;
     int currentHealth;
 
+    public bool drops;
+    public GameObject theDrop;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,5 +42,6 @@ public class Enemy : MonoBehaviour
         this.enabled = false;
         enemyHPBar.gameObject.SetActive(false);
         Destroy(gameObject);
+        if (drops) Instantiate(theDrop, transform.position, transform.rotation);
     }
 }

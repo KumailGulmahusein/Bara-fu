@@ -105,6 +105,8 @@ MonoBehaviour:
   playerDeathEffects: {fileID: 6893478375560450731, guid: 2190a2b903ca500438c0e9f1aa887f31, type: 3}
   enemyHPBar: {fileID: 4595018853421185767}
   enemymaxHealth: 200
+  drops: 0
+  theDrop: {fileID: 2965614685475045580, guid: 1cc82b74248429749988ac38d804a13f, type: 3}
 --- !u!61 &8473155784525991265
 BoxCollider2D:
   m_ObjectHideFlags: 0

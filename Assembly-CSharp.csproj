@@ -66,6 +66,14 @@
     <Compile Include="Assets\Scripts\enemyMovementController.cs" />
     <Compile Include="Assets\Scripts\cleaner.cs" />
     <Compile Include="Assets\Scripts\gameRestart.cs" />
+    <Compile Include="Assets\Scripts\levelController.cs" />
+    <Compile Include="Assets\Scripts\bossDoor.cs" />
+    <Compile Include="Assets\Scripts\healthPickUp.cs" />
+    <Compile Include="Assets\Scripts\shurikenPickUp.cs" />
+    <Compile Include="Assets\Scripts\projectileController.cs" />
+    <Compile Include="Assets\Scripts\shurikenHit.cs" />
+    <Compile Include="Assets\Scripts\cannonScript.cs" />
+    <Compile Include="Assets\Scripts\cannonBallScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Fantasy Martial Characters 3\License.txt" />

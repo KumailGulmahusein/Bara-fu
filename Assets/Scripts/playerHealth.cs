@@ -60,6 +60,14 @@ public class playerHealth : MonoBehaviour
             die();
         }
     }
+    public void addHealth(float healthAmount)
+    {
+        currentHealth += healthAmount;
+
+        if (currentHealth > maxHealth)
+            currentHealth = maxHealth;
+            healthBar.value = currentHealth;
+    }
     public void die()
     {
         Instantiate(playerDeathEffects, transform.position, transform.rotation);

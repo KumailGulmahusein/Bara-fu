@@ -20,9 +20,16 @@ public class playerController : MonoBehaviour
     public Transform groundCheck;
     public float jumpHeight;
 
+    //Extra Variables
     bool facingRight;
     Rigidbody2D myRB;
     Animator myAnim;
+
+    //Shuriken Variables
+    public Transform shurikenTip;
+    public GameObject bullet;
+    float fireRate = 0.5f;
+    float nextFire = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +49,10 @@ public class playerController : MonoBehaviour
             myAnim.SetBool("isGrounded", grounded);
             myRB.AddForce(new Vector2(0, jumpHeight));
         }
+
+        //Throw Shuriken
+        if (Input.GetAxisRaw("Fire2")> 0) fireRocket();
+
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -78,4 +89,19 @@ public class playerController : MonoBehaviour
         transform.localScale = theScale;
     }
 
+    void fireRocket()
+    {
+        if(Time.time> nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            if (facingRight)
+            {
+                Instantiate(bullet, shurikenTip.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            }
+            else if (!facingRight)
+            {
+                Instantiate(bullet, shurikenTip.position, Quaternion.Euler(new Vector3(0, 0, 180f)));
+            }
+        }
+    }
 }
