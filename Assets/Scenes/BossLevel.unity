@@ -769,6 +769,63 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7713614270494089033, guid: 2c4fca42382794247aadc56b70c7bfe8, type: 3}
   m_PrefabInstance: {fileID: 1860469719}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &898063625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 854549798567912408, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_Name
+      value: CaveDoorExit Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672919570416936815, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
 --- !u!1001 &938877150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -971,6 +1028,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fd53dc35b6afd44fa548e5967ea102f, type: 3}
+--- !u!1 &1536306442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 854549798567912408, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+  m_PrefabInstance: {fileID: 898063625}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1536306446
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536306442}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.46, y: 1.41}
+    newSize: {x: 1.46, y: 1.41}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.46, y: 1.41}
+  m_EdgeRadius: 0
 --- !u!1 &1546858903
 GameObject:
   m_ObjectHideFlags: 0
@@ -6302,7 +6390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 357324fe102dbcf429c9d0b69fcf39fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 49
+  damage: 40
   damageRate: 1
   pushBackForce: 5
 --- !u!61 &1903059259
@@ -6364,7 +6452,7 @@ MonoBehaviour:
   enemyHPBar: {fileID: 2029613748}
   enemymaxHealth: 400
   drops: 1
-  theDrop: {fileID: 854549798567912408, guid: 387381c0569543548ab2993d60ffca9c, type: 3}
+  theDrop: {fileID: 0}
 --- !u!114 &2029613748 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5592099667021030637, guid: 2c4fca42382794247aadc56b70c7bfe8, type: 3}

@@ -5,18 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
+
+    bool activated = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        void OnTriggerEnter2D(Collider2D other)
+
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player" && !activated)
         {
-                SceneManager.LoadScene("YouWin");
+            activated = true;
+            SceneManager.LoadScene("YouWin");
         }
     }
 }
