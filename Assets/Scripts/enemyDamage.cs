@@ -5,41 +5,39 @@ using UnityEngine;
 public class enemyDamage : MonoBehaviour
 {
 
-    public float damage;
-    public float damageRate;
-    public float pushBackForce;
-
-    float nextDamage;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        nextDamage = 0f;
-    }
+    public Animator animator;
+    public Transform AttackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+    public int attackDamage = 20;
+    public float attackRate = 2f;
+    float nextAttackTime = 0f;
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if(other.tag=="Player" && nextDamage < Time.time)
+        if (Time.time >= nextAttackTime)
         {
-            playerHealth thePlayerHealth = other.gameObject.GetComponent<playerHealth>();
-            thePlayerHealth.TakeDamage(damage);
-            nextDamage = Time.time + damageRate;
-
-            pushBack(other.transform);
+            Attack();
+            nextAttackTime = Time.time + 1f / attackRate;
         }
     }
-    void pushBack(Transform pushedObject)
+
+    void Attack()
     {
-        Vector2 pushDirection = new Vector2(0, pushedObject.position.y - transform.position.y).normalized;
-        pushDirection *= pushBackForce;
-        Rigidbody2D pushRB = pushedObject.gameObject.GetComponent<Rigidbody2D>();
-        pushRB.velocity = Vector2.zero;
-        pushRB.AddForce(pushDirection, ForceMode2D.Impulse);
+        animator.SetTrigger("attack");
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, enemyLayers);
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (AttackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(AttackPoint.position, attackRange);
     }
 }

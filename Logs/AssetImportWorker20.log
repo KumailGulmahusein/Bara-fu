@@ -1,0 +1,435 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.7f1 (6bd9e232123f) revision 7068130'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker20
+-projectPath
+C:/Users/Kumail/Documents/GitHub/Samurai-Bean
+-logFile
+Logs/AssetImportWorker20.log
+-srvPort
+57437
+Successfully changed project path to: C:/Users/Kumail/Documents/GitHub/Samurai-Bean
+C:/Users/Kumail/Documents/GitHub/Samurai-Bean
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 68.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.7f1 (6bd9e232123f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kumail/Documents/GitHub/Samurai-Bean/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002583 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (445ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (339ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004306 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1151ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1004ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (539ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3925 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (226.0 KB). Loaded Objects now: 4379.
+Memory consumption went from 149.7 MB to 149.5 MB.
+Total: 2.826500 ms (FindLiveObjects: 0.279900 ms CreateObjectMapping: 0.111300 ms MarkObjects: 2.273500 ms  DeleteObjects: 0.160100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kumail\Documents\GitHub\Samurai-Bean\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Domain Reload Profiling:
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3907 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (192.9 KB). Loaded Objects now: 4381.
+Memory consumption went from 148.4 MB to 148.2 MB.
+Total: 2.328000 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.083200 ms MarkObjects: 1.980200 ms  DeleteObjects: 0.087200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1289018.880217 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_1.asset
+  artifactKey: Guid(c53994faa3453784eb7d2881ea4495fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_1.asset using Guid(c53994faa3453784eb7d2881ea4495fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c446758b3a4625089c829fedc5444a33') in 0.073722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_28.asset
+  artifactKey: Guid(26927d3ce9e801940b6a5fa14e1f3ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_28.asset using Guid(26927d3ce9e801940b6a5fa14e1f3ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763851ff2b8c1300508c07e7bfd2c401') in 0.008774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_53.asset
+  artifactKey: Guid(674c8136fb56049488cf893fd4d16bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_53.asset using Guid(674c8136fb56049488cf893fd4d16bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a2ebf741e53d84aa0a0768d42997d6') in 0.007235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_12.asset
+  artifactKey: Guid(f27a5e7d7325e364c9049212c6b177b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_12.asset using Guid(f27a5e7d7325e364c9049212c6b177b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a019f7ff2cb881f2e1636c61a0eb0bba') in 0.009411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_70.asset
+  artifactKey: Guid(091072562dae1af42aa3aaaf86724281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_70.asset using Guid(091072562dae1af42aa3aaaf86724281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b13af085e90405fe3083c4a6d6f5ddd') in 0.008620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_32.asset
+  artifactKey: Guid(d287358632536b146922dad42a3ede63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_32.asset using Guid(d287358632536b146922dad42a3ede63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a59917fd606a0fef433d5dfae7f5c73') in 0.008103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_18.asset
+  artifactKey: Guid(a6c6c033267041949bf1af18c00d819f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_18.asset using Guid(a6c6c033267041949bf1af18c00d819f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f3c22f201ae21f85931f8608a8253f') in 0.008925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_57.asset
+  artifactKey: Guid(fbdfa17b29354f44ea9e83a7b10d849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_57.asset using Guid(fbdfa17b29354f44ea9e83a7b10d849c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf3bc81e98b47c6558157f2a1cbac46') in 0.007321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_34.asset
+  artifactKey: Guid(f3694d50502cbce4e9a920dd820a5e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_34.asset using Guid(f3694d50502cbce4e9a920dd820a5e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47eeaea406dc4ca489107c1bea128b9') in 0.008869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_31.asset
+  artifactKey: Guid(925d30bb209854e49a7ef3d4e70df64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_31.asset using Guid(925d30bb209854e49a7ef3d4e70df64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e212fe880bb717d9c2dfe044972cc5d4') in 0.007765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_63.asset
+  artifactKey: Guid(d0002c6d24d776d4893a67b6945dfe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_63.asset using Guid(d0002c6d24d776d4893a67b6945dfe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d687e66557deb22b3d533be074a19a') in 0.010394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_56.asset
+  artifactKey: Guid(1431a9b6d419de54da7523f3ceb2f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_56.asset using Guid(1431a9b6d419de54da7523f3ceb2f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8d35542c1a1136e0786a2e0faa3e33') in 0.009127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_59.asset
+  artifactKey: Guid(37f1f5fa0d1cf044482b45dea0b37979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_59.asset using Guid(37f1f5fa0d1cf044482b45dea0b37979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a87397a62c52053819fa3978334ee82') in 0.008396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_20.asset
+  artifactKey: Guid(85c997144d8a7ba428ef851a832f8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_20.asset using Guid(85c997144d8a7ba428ef851a832f8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088ace1369ba3e01299db24298a566d4') in 0.006815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_5.asset
+  artifactKey: Guid(84ebfc9b5ed3b2e4285b8b70b5ab1041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_5.asset using Guid(84ebfc9b5ed3b2e4285b8b70b5ab1041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc0bce578cc2f88869695f8fee0a578') in 0.008126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_39.asset
+  artifactKey: Guid(7ff72b8a77378c84da93be3b7415f19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_39.asset using Guid(7ff72b8a77378c84da93be3b7415f19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ba97adaae00460156feb08a8995b3d') in 0.009309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_66.asset
+  artifactKey: Guid(2ccd1e77aa5c6b34695e32b2bc3af094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_66.asset using Guid(2ccd1e77aa5c6b34695e32b2bc3af094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7cc2df4c83349da1bd0231d6d47029') in 0.008114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_3.asset
+  artifactKey: Guid(be62fa856bda15345a1eca793621b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_3.asset using Guid(be62fa856bda15345a1eca793621b449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19fac1c45e2768e4e7cb9325721483a') in 0.008663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_24.asset
+  artifactKey: Guid(427ddd20a45c1694383159b7f64c2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_24.asset using Guid(427ddd20a45c1694383159b7f64c2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbd979aa5a61097b5853ff3daac3431') in 0.008553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_11.asset
+  artifactKey: Guid(5366e8732c61c46498dc8a2dd8f55890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_11.asset using Guid(5366e8732c61c46498dc8a2dd8f55890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec4d866f8a55443a3a9f7b28c35a319') in 0.010082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_72.asset
+  artifactKey: Guid(f46b563d17d801b499ca1dd9b2342346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_72.asset using Guid(f46b563d17d801b499ca1dd9b2342346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6041cacc52046f835603a9f0bc9af21e') in 0.008781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_48.asset
+  artifactKey: Guid(e917cbfe0317e2a47ac508ee85ed6fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_48.asset using Guid(e917cbfe0317e2a47ac508ee85ed6fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f67c8ced434bb51ef577f311a23ef0') in 0.008193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_41.asset
+  artifactKey: Guid(7f6311b056b74d14c91032e04481ebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_41.asset using Guid(7f6311b056b74d14c91032e04481ebd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93342c0d64e04c31ea2824ef9ec98ce5') in 0.007147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_27.asset
+  artifactKey: Guid(10b9bc5773261f84985a40df427549d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_27.asset using Guid(10b9bc5773261f84985a40df427549d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34d32f1cd5a4efe6638a1cc87622494') in 0.009079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_43.asset
+  artifactKey: Guid(706d5b7d04001844e8ab381891a2c531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_43.asset using Guid(706d5b7d04001844e8ab381891a2c531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce639e014bf4ac21e486e3cbc89f639d') in 0.008143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_67.asset
+  artifactKey: Guid(16e7bb690edf04f4e936ae53689e2bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_67.asset using Guid(16e7bb690edf04f4e936ae53689e2bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0f09cc73c7c253918cf3f4d01e3489') in 0.007752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_6.asset
+  artifactKey: Guid(662b170b222b6ca4e9d9cff5501d5c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_6.asset using Guid(662b170b222b6ca4e9d9cff5501d5c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45493cc56db8c53dcf5e7e838c19ead9') in 0.007811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_8.asset
+  artifactKey: Guid(33335ce4c9922f240a69758757cf2c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_8.asset using Guid(33335ce4c9922f240a69758757cf2c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd295055ee10f6bb622c6b4d0b60f8394') in 0.007961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_40.asset
+  artifactKey: Guid(bda819181b0e166488812b355b3cf147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_40.asset using Guid(bda819181b0e166488812b355b3cf147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb61fbd141022b92f8a18a1f17ecdc8') in 0.008785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_73.asset
+  artifactKey: Guid(6fc6172e299c5d546912d53f6c425362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_73.asset using Guid(6fc6172e299c5d546912d53f6c425362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c27ae1d2b7e33a360121211c3dd4280') in 0.008863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_25.asset
+  artifactKey: Guid(4a9ad5bec428bb3469859e8fcbb2a919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_25.asset using Guid(4a9ad5bec428bb3469859e8fcbb2a919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348a97da67074b32703d43d820d72948') in 0.008694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_13.asset
+  artifactKey: Guid(c45d7f54be21a564dbb90f7af8cf4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_13.asset using Guid(c45d7f54be21a564dbb90f7af8cf4ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce43ae70a8f0e4d3942a15f6aa5caed4') in 0.008945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_35.asset
+  artifactKey: Guid(dcb24fed0a35a7e46ac57f9afff747be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_35.asset using Guid(dcb24fed0a35a7e46ac57f9afff747be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19495270f5c22a938789941a482bcc7b') in 0.008654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_16.asset
+  artifactKey: Guid(5a8b98acac8c7da48ae5a37a0057651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_16.asset using Guid(5a8b98acac8c7da48ae5a37a0057651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd734548a6dd408a725d669095debde') in 0.007901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_54.asset
+  artifactKey: Guid(b9931e9e6e06b384f8dcce92e59cccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_54.asset using Guid(b9931e9e6e06b384f8dcce92e59cccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b30fda0299cf47e953a24925af37448') in 0.007699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Cave/PNG files/Tiles/CaveG_45.asset
+  artifactKey: Guid(eec56ed396abd0d4daa012fdd59ae0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Cave/PNG files/Tiles/CaveG_45.asset using Guid(eec56ed396abd0d4daa012fdd59ae0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3028740220d6b0c12c0eb37d571cf0a') in 0.008055 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\playerHealth.cs" />
     <Compile Include="Assets\Scripts\enemyMovementController.cs" />
     <Compile Include="Assets\Scripts\cleaner.cs" />
+    <Compile Include="Assets\Scripts\gameRestart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Fantasy Martial Characters 3\License.txt" />

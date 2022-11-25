@@ -21,6 +21,7 @@ public class playerHealth : MonoBehaviour
     Color damagedColour = new Color(0f, 0f, 0f, 0.5f);
     float smoothColour = 5f;
 
+    public gameRestart theGameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -67,5 +68,6 @@ public class playerHealth : MonoBehaviour
 
         Animator DeathText = DeathTextScreen.GetComponent<Animator>();
         DeathText.SetTrigger("gameOver");
+        theGameManager.restartTheGame();
     }
 }
