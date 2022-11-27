@@ -1,6 +1,6 @@
 # Bara-fu
 Final year uniersity coursework
-Created using Unity and c#
+Created using Unity and C#
 
 ## Level 1
 Created enemies with AI and animation
